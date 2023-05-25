@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Cambia el color de fondo según tus preferencias */
+}
+
+.message-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Cambia el color del texto según tus preferencias */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh; /* Usa min-height en lugar de height */
+  width: 100%;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 140px;
+  height: 110px;
+  margin-right: 50px;
+}
+
+.chat-container {
+  flex: 1;
+  width: 100%;
+}

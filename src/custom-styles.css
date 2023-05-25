@@ -1,0 +1,13 @@
+/* Estilos personalizados para MessageInput */
+.message-input {
+    background-color: #f564;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .message-input:focus {
+    outline: none;
+    box-shadow: 0 0 3px #aaa;
+  }
